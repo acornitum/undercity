@@ -1,6 +1,8 @@
 ---
-
+import "./globals.css";
 ---
+
+
 
 <html lang="en">
 	<head>
@@ -8,9 +10,31 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>undercity</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+
+
+
+
+	<body> 
+
+		<landing-page class="grid items-center justify-center text-center p-20">
+			<landing-title className="font-bold text-8xl">UNDERCITY</landing-title>
+			<landing-subtitle className="text-2xl">hackathon coming 2025.</landing-subtitle>
+			
+		</landing-page>
+
+
+		<about-page class="grid items-center justify-center text-center p-20">
+			<about-title className="font-medium">welcome to cybertropolis, the city below.</about-title>
+			<about-subtitle className="text-sx">hello, hacker. you've found the final gateway to join the city - there's just one final test you'll need to go through.</about-subtitle>
+			<about-subtitle className="text-sx">here's how it'll work. for 36 hours, you'll create a project from scratch.</about-subtitle>
+		</about-page>
+		
+		
 	</body>
+
+
+
+
 </html>
