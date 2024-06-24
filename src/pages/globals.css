@@ -7,9 +7,9 @@
 .hover-reveal-bg {
     position: relative;
     overflow: hidden;
-  }
-  
-  .hover-reveal-bg::before {
+}
+
+.hover-reveal-bg::before {
     content: '';
     position: absolute;
     top: 0;
@@ -19,27 +19,32 @@
     background-color: inherit; /* Use the background color of the parent */
     transition: left 0.3s ease-out;
     z-index: 0;
-  }
-  
-  .hover-reveal-bg:hover::before {
-    left: 0;
-  }
+}
 
-  .blue-bg::before {
+.hover-reveal-bg:hover::before {
+    left: 0;
+}
+
+.blue-bg::before {
     background-image: linear-gradient(to right, #007bff7c, #000); 
-  }
-  
-  .yellow-bg::before {
+}
+
+.yellow-bg::before {
     background-image: linear-gradient(to right, #ffc1077b, #000); 
-  }
-  
-  .red-bg::before {
+}
+
+.red-bg::before {
     background-image: linear-gradient(to right, #dc35466c, #000); 
-  }
-  
-  
-  .hover-reveal-bg > * {
+}
+
+
+.hover-reveal-bg > * {
     position: relative;
     z-index: 1;
-  }
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
 
