@@ -1,5 +1,6 @@
 ---
 import "./globals.css";
+import Card from '../components/Card.astro';
 ---
 
 
@@ -70,6 +71,27 @@ import "./globals.css";
 
 			</div>
 		</div>
+
+		<ul role="list" class="link-card-grid">
+			<Card
+				classa="yellow"
+				href="#"
+				title="the builders"
+				body="the builders are the ones who create things. they're the ones who build the systems and make them work."
+			/>
+			<Card
+				classa="red"
+				href="#"
+				title="the thinkers"
+				body="the thinkers are the ones who plan things. they're the ones who come up with the ideas and make them happen."
+			/>
+			<Card
+				classa="blue"
+				href="#"
+				title="the hackers"
+				body="the hackers are the ones who break things. they're the ones who find the vulnerabilities in the system and exploit them."
+			/>
+		</ul>
 
 		<div id="faq" class="md:p-28">
 			<p class="text-center font-bold text-4xl">frequently asked questions</p>
