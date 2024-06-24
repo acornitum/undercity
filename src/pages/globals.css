@@ -1,18 +1,48 @@
 :root {
     background-color: black;
     color: white;
-}
-
-.yellow {
     --accent: 136, 58, 234;
     --accent-light: 224, 204, 250;
-    --accent-dark: 49, 10, 101;
     --accent-gradient: linear-gradient(
         45deg,
         rgb(var(--accent)),
         rgb(var(--accent-light)) 30%,
-        white 60%
-    );
+        white 60%);
+
+
+
+
+    --accent-red: 136, 58, 234;
+    --accent-light-red: 224, 204, 250;
+    --accent-gradient-red: linear-gradient(
+        45deg,
+        rgb(var(--accent-red)),
+        rgb(var(--accent-light-red)) 30%,
+        white 60%);
+
+
+    --accent-blue: 136, 58, 234;
+    --accent-light-blue: 224, 204, 250;
+    --accent-gradient-blue: linear-gradient(
+        45deg,
+        rgb(var(--accent-blue)),
+        rgb(var(--accent-light-blue)) 30%,
+        white 60%);
+
+
+
+    --accent-yellow: 136, 58, 234;
+    --accent-light-yellow: 224, 204, 250;
+    --accent-gradient-yellow: linear-gradient(
+        45deg,
+        rgb(var(--accent-yellow)),
+        rgb(var(--accent-light-yellow)) 30%,
+        white 60%);
+
+}
+/* 
+.yellow {
+
 }
 
 .red {
@@ -37,7 +67,7 @@
         rgb(var(--accent-light)) 30%,
         white 60%
     );
-}
+} */
 
 
 .hover-reveal-bg {
