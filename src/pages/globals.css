@@ -10,10 +10,8 @@
         white 60%);
 
 
-
-
-    --accent-red: 136, 58, 234;
-    --accent-light-red: 224, 204, 250;
+    --accent-red: 255, 64, 108;
+    --accent-light-red: 252, 179, 220;
     --accent-gradient-red: linear-gradient(
         45deg,
         rgb(var(--accent-red)),
@@ -21,8 +19,8 @@
         white 60%);
 
 
-    --accent-blue: 136, 58, 234;
-    --accent-light-blue: 224, 204, 250;
+    --accent-blue: 84, 179, 214;
+    --accent-light-blue: 166, 245, 255;
     --accent-gradient-blue: linear-gradient(
         45deg,
         rgb(var(--accent-blue)),
@@ -31,8 +29,8 @@
 
 
 
-    --accent-yellow: 136, 58, 234;
-    --accent-light-yellow: 224, 204, 250;
+    --accent-yellow: 255, 228, 23;
+    --accent-light-yellow: 252, 224, 182;
     --accent-gradient-yellow: linear-gradient(
         45deg,
         rgb(var(--accent-yellow)),
@@ -40,35 +38,6 @@
         white 60%);
 
 }
-/* 
-.yellow {
-
-}
-
-.red {
-    --accent: #dc3546;
-    --accent-light: #f8d7da;
-    --accent-dark: #842029;
-    --accent-gradient: linear-gradient(
-        45deg,
-        rgb(var(--accent)),
-        rgb(var(--accent-light)) 30%,
-        white 60%
-    );
-}
-
-.blue {
-    --accent: 136, 58, 234;
-    --accent-light: 224, 204, 250;
-    --accent-dark: 49, 10, 101;
-    --accent-gradient: linear-gradient(
-        45deg,
-        rgb(var(--accent)),
-        rgb(var(--accent-light)) 30%,
-        white 60%
-    );
-} */
-
 
 .hover-reveal-bg {
     position: relative;

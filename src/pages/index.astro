@@ -1,6 +1,9 @@
 ---
 import "./globals.css";
 import Card from '../components/Card.astro';
+import Cardyellow from "../components/Cardyellow.astro";
+import Cardred from '../components/Cardred.astro';
+import Cardblue from '../components/Cardblue.astro';
 ---
 
 
@@ -73,20 +76,17 @@ import Card from '../components/Card.astro';
 		</div>
 
 		<ul role="list" class="link-card-grid">
-			<Card
-				classa="yellow"
+			<Cardyellow
 				href="#"
 				title="the builders"
 				body="the builders are the ones who create things. they're the ones who build the systems and make them work."
 			/>
-			<Card
-				classa="red"
+			<Cardred
 				href="#"
 				title="the thinkers"
 				body="the thinkers are the ones who plan things. they're the ones who come up with the ideas and make them happen."
 			/>
-			<Card
-				classa="blue"
+			<Cardblue
 				href="#"
 				title="the hackers"
 				body="the hackers are the ones who break things. they're the ones who find the vulnerabilities in the system and exploit them."
