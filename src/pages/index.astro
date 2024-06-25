@@ -52,46 +52,30 @@ import Cardblue from '../components/Cardblue.astro';
 			<p class="text-sx pt-3">in simpler terms: undercity is a hackathon.</p>
 		</div>
 
-		<div id="guilds" class="m-10 pt-28 mb-28">
+		<div id="guilds" class="pt-28 mb-28">
 			<p class="text-center font-bold text-4xl">which guild will you join?</p>
+			
 
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
-
-				<div class="flex flex-col items-center justify-center p-10 border-4 border-yellow-500 rounded-lg hover-reveal-bg yellow-bg" style="background-color: #000">
-					<p class="font-bold text-2xl">the builders</p>
-					<p class="text-sx pt-3">the builders are the ones who create things. they're the ones who build the systems and make them work.</p>
-				</div>
-
-				<div class="flex flex-col items-center justify-center p-10 border-4 border-red-500 rounded-lg hover-reveal-bg red-bg" style="background-color: #000">
-					<p class="font-bold text-2xl">the thinkers</p>
-					<p class="text-sx pt-3">the thinkers are the ones who plan things. they're the ones who come up with the ideas and make them happen.</p>
-				</div>
-
-				<div class="flex flex-col items-center justify-center p-10 border-4 border-blue-500 rounded-lg hover-reveal-bg blue-bg" style="background-color: #000;">
-					<p class="font-bold text-2xl">the hackers</p>
-					<p class="text-sx pt-3">the hackers are the ones who break things. they're the ones who find the vulnerabilities in the system and exploit them.</p>
-				</div>
-
-			</div>
+			<ul role="list" class="link-card-grid">
+				<Cardyellow
+					href="#"
+					title="the builders"
+					body="the builders are the ones who create things. they're the ones who build the systems and make them work."
+				/>
+				<Cardred
+					href="#"
+					title="the thinkers"
+					body="the thinkers are the ones who plan things. they're the ones who come up with the ideas and make them happen."
+				/>
+				<Cardblue
+					href="#"
+					title="the hackers"
+					body="the hackers are the ones who break things. they're the ones who find the vulnerabilities in the system and exploit them."
+				/>
+			</ul>
 		</div>
 
-		<ul role="list" class="link-card-grid">
-			<Cardyellow
-				href="#"
-				title="the builders"
-				body="the builders are the ones who create things. they're the ones who build the systems and make them work."
-			/>
-			<Cardred
-				href="#"
-				title="the thinkers"
-				body="the thinkers are the ones who plan things. they're the ones who come up with the ideas and make them happen."
-			/>
-			<Cardblue
-				href="#"
-				title="the hackers"
-				body="the hackers are the ones who break things. they're the ones who find the vulnerabilities in the system and exploit them."
-			/>
-		</ul>
+
 
 		<div id="faq" class="md:p-28">
 			<p class="text-center font-bold text-4xl">frequently asked questions</p>
